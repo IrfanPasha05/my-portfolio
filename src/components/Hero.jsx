@@ -1,5 +1,7 @@
-import React from "react";
 
+
+import React from "react";
+import profilePhoto from "../assets/irfan Picture 1.png";
 function Hero({ heroData, techStack }) {
   const isExternalLink = (url) =>
     typeof url === "string" &&
@@ -75,13 +77,14 @@ function Hero({ heroData, techStack }) {
           <div className="ring ring-3"></div>
 
           <div className="cloud-core">
-            <div className="cloud-top cloud-top-left"></div>
-            <div className="cloud-top cloud-top-right"></div>
-
-            <div className="cloud-face">
-              <div className="cloud-brand">aws</div>
-            </div>
-          </div>
+  <div className="profile-photo-wrapper">
+    <img
+      src={profilePhoto}
+      alt="Irfan Pasha"
+      className="profile-photo"
+    />
+  </div>
+</div>
 
           <div className="tech-grid-minimal">
             {techStack.map((item, index) => (
