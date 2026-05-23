@@ -14,10 +14,42 @@ function Contact() {
 
         <div className="contact-details">
           <p>📧 ip.irfanpasha5@gmail.com</p>
+
           <p>📞 +91 8951936502</p>
-          <p>🔗 www.linkedin.com/in/irfan-pasha-8b8091100/</p>
-          <p>💻 github.com/IrfanPasha05</p>
-          <p>✍️ dev.to/irfanpasha</p>
+
+          <p>
+            🔗{" "}
+            <a
+              href="https://www.linkedin.com/in/irfan-pasha-8b8091100/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              linkedin.com/in/irfan-pasha-8b8091100
+            </a>
+          </p>
+
+          <p>
+            💻{" "}
+            <a
+              href="https://github.com/IrfanPasha05"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/IrfanPasha05
+            </a>
+          </p>
+
+          <p>
+            ✍️{" "}
+            <a
+              href="https://dev.to/irfanpasha"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              dev.to/irfanpasha
+            </a>
+          </p>
+
           <p>📍 Bangalore, Karnataka, India</p>
         </div>
       </div>
