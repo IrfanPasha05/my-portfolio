@@ -9,7 +9,7 @@ function Contact() {
         <h3 className="contact-heading">Get in Touch</h3>
 
         <p className="contact-text">
-          I am open to DevOps Engineer and Cloud Engineer opportunities.
+          Seeking opportunities in Cloud Engineering, DevOps, Infrastructure Automation, and AWS Cloud Technologies.
         </p>
 
         <div className="contact-details">
@@ -51,6 +51,16 @@ function Contact() {
           </p>
 
           <p>📍 Bangalore, Karnataka, India</p>
+
+          <div style={{ marginTop: "20px" }}>
+            <a
+              href="/resume.pdf"
+              download
+              className="btn"
+            >
+              📄 Download Resume
+            </a>
+          </div>
         </div>
       </div>
     </section>
