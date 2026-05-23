@@ -1,82 +1,24 @@
 import React from "react";
 
-function Contact({ contactData }) {
+function Contact() {
   return (
-    <section className="section reveal" id="contact">
-      <div className="section-heading">
-        <span>Let's Connect</span>
-        <h3>Contact</h3>
-      </div>
+    <section className="section" id="contact">
+      <h2 className="contact-title">Contact</h2>
 
-      <div className="contact-grid">
-        <div className="glass-card contact-card">
-          <h4>Get in Touch</h4>
-          <p>{contactData.intro}</p>
+      <div className="glass-card contact-card">
+        <h3 className="contact-heading">Get in Touch</h3>
 
-          <div className="contact-list">
-            <a href={`mailto:${contactData.email}`}>
-              <span>📧</span>
-              <span>{contactData.email}</span>
-            </a>
+        <p className="contact-text">
+          I am open to DevOps Engineer and Cloud Engineer opportunities.
+        </p>
 
-            <a href={contactData.phoneLink}>
-              <span>📞</span>
-              <span>{contactData.phone}</span>
-            </a>
-
-            <a
-              href={contactData.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>🔗</span>
-              <span>{contactData.linkedin.replace("https://", "")}</span>
-            </a>
-
-            <a
-              href={contactData.github}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>💻</span>
-              <span>{contactData.github.replace("https://", "")}</span>
-            </a>
-
-            <a
-              href={contactData.devto}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>✍</span>
-              <span>{contactData.devto.replace("https://", "")}</span>
-            </a>
-
-            <div>
-              <span>📍</span>
-              <span>{contactData.location}</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="glass-card contact-card">
-          <h4>Languages</h4>
-
-          <div className="language-pills">
-            {contactData.languages.map((language, index) => (
-              <span key={`${language}-${index}`}>{language}</span>
-            ))}
-          </div>
-
-          <div className="contact-cta">
-            <a
-              href={contactData.resumePath}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="resume-btn"
-            >
-              ⬇ Download Resume
-            </a>
-          </div>
+        <div className="contact-details">
+          <p>📧 ip.irfanpasha5@gmail.com</p>
+          <p>📞 +91 8951936502</p>
+          <p>🔗 www.linkedin.com/in/irfan-pasha-8b8091100/</p>
+          <p>💻 github.com/IrfanPasha05</p>
+          <p>✍️ dev.to/irfanpasha</p>
+          <p>📍 Bangalore, Karnataka, India</p>
         </div>
       </div>
     </section>
