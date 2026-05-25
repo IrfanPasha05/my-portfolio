@@ -11,7 +11,7 @@ function Certifications({ certifications, achievements, education }) {
       <div className="cert-layout">
         <div className="glass-card cert-card">
           <div className="card-title">
-            <span className="title-chip">CT</span>
+            <span className="title-chip">🏆</span>
             <h4>Certifications &amp; Training</h4>
           </div>
           <ul>
@@ -23,7 +23,7 @@ function Certifications({ certifications, achievements, education }) {
 
         <div className="glass-card cert-card">
           <div className="card-title">
-            <span className="title-chip">AW</span>
+            <span className="title-chip">⭐</span>
             <h4>Achievements</h4>
           </div>
           <ul>
@@ -34,7 +34,7 @@ function Certifications({ certifications, achievements, education }) {
 
           <div className="education-block">
             <div className="card-title">
-              <span className="title-chip">ED</span>
+              <span className="title-chip">🎓</span>
               <h4>Education</h4>
             </div>
             <ul>

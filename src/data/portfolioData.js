@@ -9,11 +9,12 @@ export const navLinks = [
 ];
 
 export const heroData = {
-  eyebrow: "AWS CLOUD ENGINEER & DEVOPS SPECIALIST",
+  eyebrow: "ASPIRING AWS CLOUD & DEVOPS ENGINEER",
   name: "Irfan Pasha",
-  roles: ["AWS", "DevOps", "Cloud Engineer"],
+  roles: ["AWS Cloud Engineer", "DevOps Engineer"],
   summary:
-    "Results-driven IT professional with 9+ years of experience in enterprise support, Microsoft 365, Active Directory, Windows support, incident handling, queue management, and SLA-driven operations. Actively transitioning into AWS & DevOps with hands-on implementation of VPC, EC2, ALB, Auto Scaling, Lambda, S3, CloudWatch, CloudTrail, CloudFront, RDS, DynamoDB, NAT Gateway, and Bastion Host architecture.",
+
+    "AWS Cloud & DevOps Enthusiast with 9+ years of experience in IT Operations, Desktop Support, Service Desk, and L2 Technical Support. Strong background in enterprise IT support, system administration, and incident management. Actively developing cloud and automation skills through hands-on AWS and DevOps projects involving Linux, Git, GitHub, Docker, Terraform, and CI/CD pipelines. Passionate about leveraging technology to build scalable, secure, and automated cloud infrastructure, and seeking opportunities to grow as an AWS Cloud Engineer or DevOps Engineer.",
   socialLinks: [
     {
       label: "IN",
@@ -125,8 +126,11 @@ export const techStack = [
 
 export const aboutData = {
   paragraphs: [
-    "Experienced L2 Remote Support Engineer and Queue Manager with strong expertise in incident management, SLA governance, queue management, Windows OS support, Microsoft 365, Active Directory, ServiceNow, and enterprise IT operations.",
-    "Recognized for operational excellence through Kaizen process improvement, improving a 3-hour SLA from 83% to 99.8%, and supporting global users under strict SLA commitments.",
+    "Experienced IT professional with 9+ years of expertise in enterprise support, incident management, SLA governance, Microsoft 365 administration, Active Directory, and ServiceNow operations.",
+
+    "Successfully improved SLA performance from 83% to 99.8% through Kaizen-driven process improvements while supporting global enterprise environments.",
+
+    "Currently expanding expertise in AWS Cloud and DevOps technologies through hands-on projects involving Infrastructure as Code, CI/CD pipelines, containerization, automation, and monitoring solutions.",
   ],
   meta: [
     "Bangalore, Karnataka, India",
@@ -148,6 +152,12 @@ export const skills = [
       "RDS",
       "Lambda",
       "CloudWatch",
+      "Auto Scaling",
+      "AWS Elastic Load Balancing",
+      "Application Load Balancer (ALB)",
+      
+
+
     ],
   },
   {
@@ -354,15 +364,13 @@ export const experience = [
 ];
 
 export const certifications = [
-  "AWS Certified Solutions Architect – Associate",
-  "Microsoft MS-900 (Microsoft 365 Fundamentals)",
-  "Six Sigma Yellow Belt",
-  "Certified Network Administrator (CAN)",
-  "Office Expert & Tally",
-  "Kaizen Champion",
-  "AI & Automation in Excel",
-  "Basic Power BI",
-  "AI Tools Workshop",
+   "🏆 AWS Certified Solutions Architect – Associate",
+  "💻 Microsoft MS-900 – Microsoft 365 Fundamentals",
+  "☁️ Microsoft AZ-900 – Azure Fundamentals",
+  "📊 Six Sigma Yellow Belt",
+  "🤖 AI Tools Workshop",
+  "🧠 AI Conversant Assessment (DXC Technology)",
+  "📈 Power BI Basic"
 ];
 
 export const achievements = [
@@ -372,14 +380,13 @@ export const achievements = [
 ];
 
 export const education = [
-  "Bachelor of Computer Applications (BCA) – Pursuing (Part-Time)",
-  "Mangalayatan University",
+  "Bachelor of Computer Applications (BCA) – Pursuing (Part-Time), Mangalayatan University",
   "Diploma in Electronics & Communication Engineering",
 ];
 
 export const contactData = {
   intro:
-    "I am open to AWS Cloud, DevOps, System Administration, IT Support, Queue Management, and cloud deployment opportunities.",
+    "Seeking opportunities as an AWS Cloud Engineer or DevOps Engineer. Passionate about cloud technologies, automation, infrastructure as code, and building scalable cloud solutions through continuous learning and hands-on project experience.",
   email: "ip.irfanpasha5@gmail.com",
   phone: "+91 8951936502",
   phoneLink: "tel:+918951936502",

@@ -1100,3 +1100,88 @@ button {
 .cloud-core {
   transform: translateY(-70px);
 }
+.cert-card ul li {
+  margin-bottom: 14px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(62, 219, 255, 0.15);
+  transition: all 0.3s ease;
+}
+
+.cert-card ul li:hover {
+  transform: translateX(6px);
+  border-color: rgba(62, 219, 255, 0.5);
+  box-shadow: 0 0 15px rgba(62, 219, 255, 0.15);
+}
+#about,
+#skills,
+#projects,
+#experience,
+#certifications,
+#contact {
+  scroll-margin-top: 120px;
+}
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 2rem;
+}
+
+.badge-card {
+  padding: 20px;
+  text-align: center;
+  min-height: 280px;
+  background: rgba(10, 18, 60, 0.7);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  border-radius: 20px;
+}
+
+.badge-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(0,255,255,0.3);
+}
+
+.badge-card img {
+  width: 130px;
+  height: auto;
+}
+
+.badge-card h4 {
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.awards-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.badge-card {
+  padding: 20px;
+  text-align: center;
+  min-height: 280px;
+}
+
+.badge-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.award-showcase {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.award-showcase img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 255, 255, 0.2);
+}

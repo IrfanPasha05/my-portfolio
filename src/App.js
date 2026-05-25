@@ -9,7 +9,9 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Certifications from "./components/Certifications";
+import CertificationBadges from "./components/CertificationBadges";
 import Contact from "./components/Contact";
+import AwardsRecognition from "./components/AwardsRecognition";
 import Footer from "./components/Footer";
 
 import {
@@ -64,11 +66,17 @@ function App() {
       <Skills skills={skills} />
       <Projects cloudProjects={cloudProjects} majorProjects={majorProjects} />
       <Experience experience={experience} />
-      <Certifications
-        certifications={certifications}
-        achievements={achievements}
-        education={education}
-      />
+
+<CertificationBadges />
+
+<AwardsRecognition />
+
+<Certifications
+  certifications={certifications}
+  achievements={achievements}
+  education={education}
+/>
+      <AwardsRecognition />
       <Contact contactData={contactData} />
       <Footer />
     </div>
