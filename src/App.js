@@ -69,8 +69,6 @@ function App() {
 
 <CertificationBadges />
 
-<AwardsRecognition />
-
 <Certifications
   certifications={certifications}
   achievements={achievements}
